@@ -6,34 +6,17 @@ class App extends Component {
   render() {
     return (
       <div>
-        <ContactContainer />
-        <FormContainer />
+        <NavContainer />
       </div>
     );
   }
 }
 
-const ContactContainer = () => {
+const NavContainer = () => {
   return (
-    <div className="contact-container">
-      <ul className="contact-list">
-        <li>Email</li>
-        <li>Address</li>
-        <li>Phone number</li>
-      </ul>
-    </div>
-  );
-};
-
-const FormContainer = () => {
-  return (
-    <div>
-      <form>
-        <div className="form-text">Username</div>
-        <input type="text" className="input-fld" />
-        <div className="form-text">Password</div>
-        <input type="text" className="input-fld" />
-      </form>
+    <div className="nav-container">
+      <button> test 1</button>
+      <button> test 2</button>
     </div>
   );
 };
